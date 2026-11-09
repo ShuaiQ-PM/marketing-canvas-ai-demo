@@ -1,2 +1,25 @@
-# marketing-canvas-ai-demo
-Standalone demo for the 星云有客 marketing canvas workflow and AI assisted node creation.
+# 营销画布 AI 创建演示
+
+独立前端演示项目，使用星云有客营销画布节点与画布样式，模拟 AI 需求确认和逐步创建节点。当前 AI 是本地脚本模拟，不连接真实模型或业务 API。
+
+## 获取源码
+
+下载 [源码压缩包](./marketing-canvas-ai-demo-source.zip) 并解压。
+
+## 本地运行
+
+需要 Node.js 20+ 和 pnpm。在解压后的项目目录运行：
+
+```bash
+pnpm install
+pnpm dev
+```
+
+浏览器打开终端显示的本地地址。生产构建：`pnpm build`。
+
+## 演示内容
+
+- 营销画布列表页的“智能创建”入口
+- 左侧 AI 对话抽屉，确认卡片在输入框上方
+- 画布底部添加节点旁的 AI 入口
+- 分支节点、逐节点生成过程和画布内 loading 状态
